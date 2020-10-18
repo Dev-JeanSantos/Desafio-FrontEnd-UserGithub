@@ -1,0 +1,31 @@
+.content-geral{
+    width: 1251px;
+    height: 270px;
+    margin-top: 116px;
+    margin-left: 90px;
+    padding-top: 66px;
+    border-radius: 16px;
+    background: #E6F7FF
+}
+.content-title{
+    width: 502px;
+    height: 46px;
+    margin-left: 94px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+     color: #262626;
+}
+.form-control{
+    width: 676px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-left: 94px;
+}
+.content-button{
+    margin-top: 24px;
+    margin-left: 94px;
+    margin-bottom: 42px;
+}

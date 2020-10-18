@@ -1,0 +1,36 @@
+.container-text-title{
+    width: 580px;
+    height: 128px;
+    margin-left: 120px;
+    margin-top: 120px; 
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+}
+
+.container-link{
+    text-decoration: none;
+}
+
+.container-text-description{
+    width: 612px;
+    height: 216px;
+    margin: 24px 600px 56px 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 36px;
+    color: #5A6774;
+}
+
+.container-button{
+    height: 24px;
+    margin-left: 120px;
+    margin-right: 1237px;
+
+}
