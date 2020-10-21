@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import './styles.css';
 
 type Props = {
     text:string
+    children?: ReactNode;
+    onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => any;
 }
 
-const Button = ({text}: Props) =>(
+const Button = ({text, children, onClick}: Props) =>(
 
     <button className="btn-icon">
-        <div className="btn-text">{text}</div>
+        {children}
+        <div className='btn-text' onClick={onClick}>{text}</div>
     </button>
     
 

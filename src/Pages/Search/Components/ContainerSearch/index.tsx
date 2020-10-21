@@ -1,21 +1,25 @@
 import React from 'react';
-import ButtonIcon from '../../../../Core/Components/ButtonIcon';
 import './styles.css';
 
-const ContainerSearch = () => (
+type Props = {
+    children: React.ReactNode;
+}
 
-    <div className="content-geral">
-        <div className="content-title">
-            Encontre um perfil Github
-        </div>
-        <div >
-            <input type="text" placeholder="Usuário GitHub" className="form-control" />
-        </div>
-        <div className="content-button">
-            <ButtonIcon text="Encontrar"/>
-        </div>
-    </div>
-);
 
+const ContainerSearch = ({children}: Props) => {
+    
+ 
+    return(
+
+        <div className="content-geral">
+            <div className="content-title">
+                Encontre um perfil Github
+            </div>
+            {children}
+ 
+        </div>
+    );
+    
+};
 
 export default ContainerSearch;

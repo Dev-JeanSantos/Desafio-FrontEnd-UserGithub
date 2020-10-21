@@ -9,7 +9,7 @@ const Routes = () => (
                     <Home/>
                 </Route>
                 <Route path="/search">
-                    <Search/>
+                    <Search />
                 </Route>
             </Switch>
         </BrowserRouter>
