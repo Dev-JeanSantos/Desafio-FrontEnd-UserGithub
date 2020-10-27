@@ -5,6 +5,7 @@ import ButtonIcon from '../../Core/Components/ButtonIcon/';
 import { User } from '../../Core/Types/User';
 import ImageLoader from './Components/Loaders/ImageLoader';
 import InfoLoader from './Components/Loaders/InfoLoader';
+import dayjs from "dayjs";
 import './styles.css';
 
 const Search = () => {
@@ -32,6 +33,8 @@ const Search = () => {
                 setIsLoading(false);
             });
     }
+
+    const date = dayjs(user?.created_at).format("DD/MM/YYYY");
     return (
         <>
             <Navbar />
@@ -68,7 +71,7 @@ const Search = () => {
                     ) : (
                             <>
                                 <div className="coluna1">
-                                    <img src={user?.avatar_url} className="container-img"></img>
+                                    <img src={user?.avatar_url} alt='imagem_user' className="container-img"></img>
                                     <div className="button-profile-cont">
                                         <a className="link"
                                             target='_blank'
@@ -107,7 +110,7 @@ const Search = () => {
                                             <strong>Localidade:</strong> {user?.location}
                                         </h1>
                                         <h1 className="form-info">
-                                            <strong>Membro desde:</strong> {user?.created_at}
+                                            <strong>Membro desde:</strong> {date}
                                         </h1>
                                     </div>
                                 </div>
