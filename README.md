@@ -11,7 +11,7 @@ A aplicação consiste em uma busca de usuario atraves da API Pública do GitHub
 
 ## Layout web
 
-![Web 1](hhttps://github.com/Dev-JeanSantos/assets/blob/main/usergithub/home.png)
+![Web 1](https://github.com/Dev-JeanSantos/assets/blob/main/usergithub/home.png)
 
 ![Web 2](https://github.com/Dev-JeanSantos/assets/blob/main/usergithub/search.png)
 
