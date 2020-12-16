@@ -5,7 +5,7 @@
 
 https://frontendusergithub.netlify.app/
 
-Este Projeto foi um desafio de desenvolvimento FrontEnd e Integração com a API de usuários do GITHUB que busca aplicar os conceitos práticos e téoricos dos contéudos adquiridos no BOOTCAMP Dev-Superior 1.0  organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Este Projeto foi um desafio de desenvolvimento FrontEnd e Integração com a API Pública de usuários do GITHUB que busca aplicar os conceitos práticos e téoricos dos contéudos adquiridos no BOOTCAMP Dev-Superior 1.0  organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
 A aplicação consiste em uma busca de usuario atraves da API Pública do GitHub, que retorna os dados do usuario como nome, foto, total de seguidores e seguindo, a empresa em que trabalha entre outras informações.
 
